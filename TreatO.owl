@@ -1,0 +1,2671 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.ait.ac.th/riceman/TreatO/v1.1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.ait.ac.th/riceman/TreatO/v1.1"
+     versionIRI="http://www.ait.ac.th/riceman/TreatO/v1.1">
+    <Prefix name="" IRI="http://www.ait.ac.th/riceman/TreatO/v1.1"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+        <Literal>OBO-Edit 2.3.1</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#date"/>
+        <Literal>18:06:2020 17:15</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+        <Literal>plant_disease_ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+        <Literal>1.2</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+        <Literal>whyok</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBlastFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RicePhytoplasmaDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceTungroViralDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceViralDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Azoxystrobin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B._laterosporus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B._pumilus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B._subtilis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacillus_sp."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BactericideChemicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buprofezin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbendazim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbosulfan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CopperOxychloride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinotefuran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluorescens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FungalBiologicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hexaconazole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iprodione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mancozeb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#P._aeruginosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#P._fluorescens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#P._putida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propiconazole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudomonas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudomonas_sp."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pyrometrozin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiceBacterialBlightDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiceDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serratia_marcescens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steptocycline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strobilurin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triazole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trifloxystrobin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triflumizole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validamycin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViralBiologicalControlAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zineb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#BrownPlanthopperDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#GreenRiceLeafhopperDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#PestDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceBlackBugDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceDirtyPanicleFungalDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceGallDwarfVirusDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceOrangeLeafDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#ZigzagLeafhopperDamage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBacterialBiologicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBactericideChemicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFungalBiologicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFungicideChemicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInsecticideChemicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVirallBiologicalControlAgentOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Glycine_max"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Solanaceae_spp"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Triticum_aestivum"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#anamorph"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#synanamorph"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#telomorph"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialDisease"/>
+        <Class IRI="#RiceDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBlastFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+        <Class IRI="#RiceDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceViralDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RicePhytoplasmaDisease"/>
+        <Class IRI="#RiceDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceViralDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceTungroViralDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceViralDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceViralDisease"/>
+        <Class IRI="#RiceDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RicePhytoplasmaDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Azoxystrobin"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Azoxystrobin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Azoxystrobin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._laterosporus"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._laterosporus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._pumilus"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._pumilus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._pumilus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._subtilis"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._subtilis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._subtilis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._subtilis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B._subtilis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacillus_sp."/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacillus_sp."/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacillus_sp."/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacillus_sp."/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="#RiceBacterialBlightDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+        <Class IRI="#BiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BactericideChemicalControlAgent"/>
+        <Class IRI="#ChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceTungroViralDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#BrownPlanthopperDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#GreenRiceLeafhopperDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceGallDwarfVirusDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceOrangeLeafDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprofezin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#ZigzagLeafhopperDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbendazim"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbendazim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbosulfan"/>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbosulfan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceBlackBugDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CopperOxychloride"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CopperOxychloride"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CopperOxychloride"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CopperOxychloride"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="#RiceBacterialBlightDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#GreenRiceLeafhopperDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceGallDwarfVirusDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceOrangeLeafDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinotefuran"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#ZigzagLeafhopperDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluorescens"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluorescens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBlastFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FungalBiologicalControlAgent"/>
+        <Class IRI="#BiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+        <Class IRI="#ChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hexaconazole"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hexaconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hexaconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+        <Class IRI="#ChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iprodione"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iprodione"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mancozeb"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mancozeb"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mancozeb"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mancozeb"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceDirtyPanicleFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._aeruginosa"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._aeruginosa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._aeruginosa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._aeruginosa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._aeruginosa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._fluorescens"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._fluorescens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._fluorescens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._fluorescens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._fluorescens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceTungroViralDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._putida"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P._putida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propiconazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceDirtyPanicleFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudomonas"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudomonas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBlastFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudomonas_sp."/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudomonas_sp."/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudomonas_sp."/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudomonas_sp."/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pyrometrozin"/>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pyrometrozin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#BrownPlanthopperDamage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiceBacterialBlightDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceBacterialDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serratia_marcescens"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serratia_marcescens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steptocycline"/>
+        <Class IRI="#BactericideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steptocycline"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="#RiceBacterialBlightDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strobilurin"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strobilurin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBlastFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triazole"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triazole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBlastFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trifloxystrobin"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trifloxystrobin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trifloxystrobin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triflumizole"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triflumizole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validamycin"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validamycin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validamycin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="http://purl.obolibrary.org/obo/RiceStemRotFungalDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViralBiologicalControlAgent"/>
+        <Class IRI="#BiologicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zineb"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zineb"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+            <Class IRI="#RiceBacterialBlightDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#BrownPlanthopperDamage"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#PestDamage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#GreenRiceLeafhopperDamage"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#PestDamage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceBlackBugDamage"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#PestDamage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceDirtyPanicleFungalDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceFungalDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceGallDwarfVirusDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RiceViralDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceOrangeLeafDisease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RicePhytoplasmaDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#ZigzagLeafhopperDamage"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/RiceDO/v1.1#PestDamage"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+        <Class IRI="#FungalBiologicalControlAgent"/>
+        <Class IRI="#ViralBiologicalControlAgent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BactericideChemicalControlAgent"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBacterialBiologicalControlAgentOf"/>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBactericideChemicalControlAgentOf"/>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFungalBiologicalControlAgentOf"/>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFungicideChemicalControlAgentOf"/>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInsecticideChemicalControlAgentOf"/>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isVirallBiologicalControlAgentOf"/>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBacterialBiologicalControlAgentOf"/>
+        <Class IRI="#BacterialBiologicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBactericideChemicalControlAgentOf"/>
+        <Class IRI="#BactericideChemicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+        <Class IRI="#BiologicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+        <Class IRI="#ChemicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFungalBiologicalControlAgentOf"/>
+        <Class IRI="#FungalBiologicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFungicideChemicalControlAgentOf"/>
+        <Class IRI="#FungicideChemicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInsecticideChemicalControlAgentOf"/>
+        <Class IRI="#InsecticideChemicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVirallBiologicalControlAgentOf"/>
+        <Class IRI="#ViralBiologicalControlAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBiologicalControlAgentOf"/>
+        <Class IRI="#RiceDisease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isChemicalControlAgentOf"/>
+        <Class IRI="#RiceDisease"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>A plant bacterial disease (PDO:0000002) that affects rice (Oryza_sativa_L.; PDO:0000098).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>cooperl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>2012-03-30T03:32:12Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>OBO_SF2_PSO:27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>PSO_GIT:26</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>PDO:0000003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialDisease</IRI>
+        <Literal>rice bacterial disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv oryzicola (PDO:0000018).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>2012-04-09T01:37:41Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>OBO_SF2_PSO:32</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>PSO_GIT:31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>rice bacterial leaf streak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>PDO:0000019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBacterialLeafStreakDisease</IRI>
+        <Literal>rice bacterial leaf streak disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:cooperl</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:megan_seymour</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Fusarium fujikuroi (PDO:0000169).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>planteome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>2015-05-21T15:41:50Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:69</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>PSO_GIT:68</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>rice foolish seedling disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>PDO:0000168</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBakanaeFungalDisease</IRI>
+        <Literal>rice bakanae fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:megan_seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Magnaporthe oryzae (PDO:0000032).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>2012-04-09T02:23:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>PSO_GIT:5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>rice collar blast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>rice leaf blast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>rice neck blast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>rice nodal blast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>rice rotten neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>PDO:0000031</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBlastFungalDisease</IRI>
+        <Literal>rice blast fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Megan_Seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Bipolaris oryzae (PDO:0000034).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>2012-04-09T02:27:33Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>PSO_GIT:24</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>brown spot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>rice brown spot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>PDO:0000033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceBrownSpotFungalDisease</IRI>
+        <Literal>rice brown spot fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:megan_seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Ustilaginoidea virens (PDO:0000042).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>2012-04-09T02:47:43Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>PSO_GIT:20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>false smut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>rice false smut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>PDO:0000041</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFalseSmutFungalDisease</IRI>
+        <Literal>rice false smut fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>A fungal plant disease (PDO:0000004) that affects rice (Oryza_sativa_L.; PDO:0000098).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>uppalas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>2014-03-12T14:04:34Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>PSO_GIT:1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>PDO:0000081</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceFungalDisease</IRI>
+        <Literal>rice fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>A rice viral disease (PDO:0000007) caused by rice grassy stunt virus (PDO:0000135).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>SAISREE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>2014-04-10T21:50:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>OBO_SF2_PSO:49</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>PSO_GIT:48</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>rice grassy stunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>PDO:0000123</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceGrassyStuntViralDisease</IRI>
+        <Literal>rice grassy stunt viral disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Megan_Seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Tilletia barclayana (PDO:0000044).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>2012-04-09T02:52:18Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>PSO_GIT:2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>kernel smut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>rice kernel smut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>PDO:0000043</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>Symptoms: Infected grains show minute black pustules or streaks bursting through the glumes. In severe infection, the rupturing glumes produce short beak-like or spur-like growths. Growth stage affected : 9 (RiceSES).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceKernelSmutFungalDisease</IRI>
+        <Literal>rice kernel smut fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Microdochium oryzae (PDO:0000048).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>2012-04-09T03:01:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>PSO_GIT:8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>leaf scald</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>rice leaf scald</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>PDO:0000047</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo. Growth stage affected: 5-8. Phenotypic evaluation scale (based on affected leaf area): 0 - No incidence; 1 - Less than 1% (apical lesions); 3 - 1-5% (apical lesions); 5 - 6-25% (apical and some marginal lesions); 7 - 26-50% (apical and marginal lesions); 9 - 51-100% (apical and marginal lesions). (RiceSES).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceLeafScaldfungalDisease</IRI>
+        <Literal>rice leaf scald fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:megan_seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Passalora janseana (PDO:0000050).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>2012-04-12T10:19:40Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>PSO_GIT:3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>narrow brown leaf spot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>rice narrow brown leaf spot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>PDO:0000049</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceNarrowBrownLeafSpotFungalDisease</IRI>
+        <Literal>rice narrow brown leaf spot fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:cooeprl</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>A rice phytoplasma disease (PDO:0000170) caused by a caused by phytoplasma oryzae (PDO:00001xx).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>cooperl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>2015-05-29T15:16:33Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>OBO_SF2_PSO:xxx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>PDO:0000170</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RicePhytoplasmaDisease</IRI>
+        <Literal>rice phytoplasma disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>A rice viral disease (PDO:0000007) caused by rice rugged stunt virus (PDO:0000138).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>SAISREE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>2014-04-10T21:50:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>OBO_SF2_PSO:61</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>PSO_GIT:60</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>rice rugged stunt </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>PDO:0000126</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceRuggedStuntViralDisease</IRI>
+        <Literal>rice rugged stunt viral disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:megan_seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Rhizoctonia solani (PDO:0000088).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>2012-04-12T10:28:54Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>PSO_GIT:15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>rice sheath blight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>sheath blight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>PDO:0000051</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>Symptoms: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves. Phenotypic evaluation scale (based on relative lesion height): 0 - No infection observed; 1 - Lesions limited to lower 20% of the plant height; 3 - 20-30%; 5 - 31-45%; 7 - 46-65%; 9 - More than 65%. Defining relative lesion height: The relative lesion height is the average vertical height of the uppermost lesion on leaf or sheath expressed as a percentage of the average plant height (RiceSES).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathBlightFungalDisease</IRI>
+        <Literal>rice sheath blight fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PSO:megan_seymour</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Sarocladium oryzae (PDO:0000054).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>2012-04-12T10:36:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>PSO_GIT:19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>rice sheath rot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>sheath rot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>PDO:0000053</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceSheathRotFungalDisease</IRI>
+        <Literal>rice sheath rot fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Megan_Seymour</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>A rice fungal disease (PDO:0000081) caused by Nakataea oryzae (PDO:0000060).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>2012-04-12T10:55:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>OBO_SF2_PSO:18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>PSO_GIT:18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>rice stem rot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>stem rot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>PDO:0000059</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceStemRotFungalDisease</IRI>
+        <Literal>rice stem rot fungal disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>A rice viral disease (PDO:0000007) caused by one or more of rice tungro spherical virus (PDO:0000143), rice tungro bacilliform virus (PDO:0000144).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>SAISREE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>2014-04-10T21:50:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>OBO_SF2_PSO:64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>PSO_GIT:63</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>rice tungro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>PDO:0000131</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceTungroViralDisease</IRI>
+        <Literal>rice tungro viral disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>A plant viral disease (PDO:0000005) that affects rice (Oryza_sativa_L.; PDO:0000098).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>2012-04-05T10:26:18Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>OBO_SF2_PSO:42</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>PDO_GIT:41</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>PDO:0000007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceViralDisease</IRI>
+        <Literal>rice viral disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:cooperl</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>A rice viral disease (PDO:0000007) caused by mycoplasma like organism (PDO:0000141).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>SAISREE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>2014-04-10T21:50:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>OBO_SF2_PSO:65</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>PSO_GIT:64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>rice yellow dwarf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>PDO:0000129</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/RiceYellowDwarfPhytoplasmaDisease</IRI>
+        <Literal>rice yellow dwarf phytoplasma disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Glycine_max</IRI>
+        <Literal>Terms used for soybean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L</IRI>
+        <Literal>Terms used for rice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Solanaceae_spp</IRI>
+        <Literal>Terms used for the Solanaceae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Triticum_aestivum</IRI>
+        <Literal>Terms used for wheat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#Zea_mays</IRI>
+        <Literal>Terms used for maize</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#anamorph</IRI>
+        <Literal>anamorph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#synanamorph</IRI>
+        <Literal>synanamorph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/pdo#telomorph</IRI>
+        <Literal>telomorph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#BacterialBiologicalControlAgent</IRI>
+        <Literal>Bacterial Biocontrol Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#BactericideChemicalControlAgent</IRI>
+        <Literal>Bactericide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#FungalBiologicalControlAgent</IRI>
+        <Literal>Fungal Biocontrol Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#FungicideChemicalControlAgent</IRI>
+        <Literal>Fungicide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#InsecticideChemicalControlAgent</IRI>
+        <Literal>Insecticide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>APS:Plant_Diseases</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laura_Moore</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:Laurel_Cooper</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal>PDO:saisree_uppala</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>A rice bacterial disease (PDO:0000003) caused by Xanthomonas oryzae pv oryzae (PDO:0000017).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>moorel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>2012-04-05T10:37:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>OBO_SF2_PSO:31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>PSO_GIT:30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>rice bacterial blight </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>plant_disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>PDO:0000014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RiceBacterialBlightDisease</IRI>
+        <Literal>rice bacterial blight disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>#ViralBiologicalControlAgent</IRI>
+        <Literal>Viral Biocontrol Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#SubsetProperty</IRI>
+        <Literal>subset_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty</IRI>
+        <Literal>synonym_type_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym</IRI>
+        <Literal>has_broad_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasDbXref</IRI>
+        <Literal>database_cross_reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</IRI>
+        <Literal>has_exact_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym</IRI>
+        <Literal>has_narrow_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion</IRI>
+        <Literal>has_obo_format_version</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasOBONamespace</IRI>
+        <Literal>has_obo_namespace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym</IRI>
+        <Literal>has_related_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasSynonymType</IRI>
+        <Literal>has_synonym_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#inSubset</IRI>
+        <Literal>in_subset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#BrownPlanthopperDamage</IRI>
+        <Literal>brown planthopper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#GreenRiceLeafhopperDamage</IRI>
+        <Literal>green rice leafhopper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceBlackBugDamage</IRI>
+        <Literal>rice black bug</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceDirtyPanicleFungalDisease</IRI>
+        <Literal>rice dirty panicle disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceGallDwarfVirusDisease</IRI>
+        <Literal>rice gall dwarf virus disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#RiceOrangeLeafDisease</IRI>
+        <Literal>rice orange leaf disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/ontologies/RiceDO/v1.1#ZigzagLeafhopperDamage</IRI>
+        <Literal>zigzag leafhopper</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Glycine_max"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Oryza_sativa_L"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Solanaceae_spp"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Triticum_aestivum"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#Zea_mays"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#anamorph"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#synanamorph"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/pdo#telomorph"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
